@@ -6,4 +6,4 @@ The codes are written in Verilog, and evaluated with ModelSim-Intel® on Windows
 
 Each directory contains a short report that briefly explains the implementation and the evaluation results.
 
-I am very proud that on the main file (`RISCV_TOP.v`), the `always @ (posedge CLK) begin` and `always @ (*) begin` loops only have few lines of code, since the code for the other parts are all implemented in separate modules :D 
+On the main file (`RISCV_TOP.v`), the `always @ (posedge CLK) begin` and `always @ (*) begin` loops only have few lines of code, since the code for the other parts are all implemented in separate modules :D 
